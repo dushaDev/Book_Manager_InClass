@@ -34,25 +34,11 @@ class BottomNavigation extends StatelessWidget {
 
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.people_rounded),
-            activeIcon: Icon(Icons.people_rounded),
-            label: 'Users',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.article_rounded),
             activeIcon: Icon(Icons.article_rounded),
             label: 'Posts',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search_rounded),
-            activeIcon: Icon(Icons.search_rounded),
-            label: 'Search',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.notifications_rounded,),
-            activeIcon: Icon(Icons.notifications_rounded),
-            label: 'Notifications',
-          ),
+
 
         ],
       ),
